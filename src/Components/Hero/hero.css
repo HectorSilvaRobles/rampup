@@ -1,0 +1,29 @@
+.hero {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+  }
+
+  .left-hero {
+      background: green;
+      height: 100%;
+      width: 55%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+
+  .right-hero {
+      background: orange;
+      height: 100%;
+      width: 45%;
+  }
+
+  .hero-info {
+      background: white;
+      height: 80%;
+      width: 70%;
+  }
