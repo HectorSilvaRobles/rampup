@@ -1,0 +1,12 @@
+.product-intro {
+    background: brown;
+    height: 200vh;
+    width: 100%;
+}
+
+.intro-1, .intro-2, .intro-3{
+    background: white;
+    border: lightgrey solid 1px;
+    height: 33%;
+    width: 100%;
+}
