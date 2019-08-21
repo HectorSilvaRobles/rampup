@@ -1,0 +1,16 @@
+.under-hero {
+    height: 120vh;
+    width: 150%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.uh-background {
+    background: linear-gradient(-240deg, rgb(249, 82, 82), rgb(146, 3, 249) 60% );
+    height: 90%;
+    width: 100%;
+    position: relative;
+    left: -25px;
+    transform: rotate(2.5deg);
+}

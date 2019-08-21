@@ -1,0 +1,17 @@
+.how-it-works {
+    background: green;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side, .right-side {
+    width: 35%;
+    height: 80%;
+    background: white;
+}
+.right-side {
+    border-left: dotted blue 5px;
+}
