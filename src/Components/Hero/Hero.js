@@ -7,9 +7,14 @@ export default class Hero extends Component {
             <div className='hero'>
                 <div className='left-hero'>
                     <div className='hero-info'>
-
+                        <h1>Forget the Job Hunt</h1>
+                        <h2>We hate the job hunt almost as much as you. With RampUp it's simple.</h2>
+                        <h3>Search. Connect. Get Hired!</h3>
+                        <div className='hi-buttons'>
+                            <button className='button1'>Success Stories</button>
+                            <button className='button2'>Sign Up Today!</button>
+                        </div>
                     </div>
-
                 </div>
                 <div className='right-hero'>
 
