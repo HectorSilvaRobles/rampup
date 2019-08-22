@@ -14,3 +14,62 @@
     top: 100px;
     transform: rotate(4deg);
 }
+
+.footer-section {
+    position: absolute;
+    left: 17.5%;
+    z-index: 1;
+    height: 60%;
+    width: 65%;
+    top: 640%;
+}
+
+.upper-footer {
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.middle-footer {
+    background: green;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+    height: 17%;
+    width: 100%;
+}
+
+.footer-info {
+    /* border: white solid 1px; */
+    width: 25%;
+    height: 100%;
+}
+
+.footer-info > h1 {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-info > ul {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+.footer-info > ul > li {
+    color: white;
+    font-family: arial;
+    letter-spacing: 1px;
+}
+
+.white-line {
+    background: white;
+    width: 90%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
