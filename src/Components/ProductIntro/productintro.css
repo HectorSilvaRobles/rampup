@@ -1,12 +1,143 @@
 .product-intro {
-    background: brown;
     height: 200vh;
     width: 100%;
 }
 
 .intro-1, .intro-2, .intro-3{
     background: white;
-    border: lightgrey solid 1px;
-    height: 33%;
+    border-bottom: lightgrey solid 0.5px;
+    height: 33.3%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.intro-3{
+    height: 30%;
+}
+
+.intro1-left, .intro3-left, .intro3-right {
+    height: 70%;
+    width: 30%;
+}
+.intro1-left > p, .intro2-right > p, .intro3-left > p {
+    font-family: arial;
+    font-size: 18px;
+    line-height: 1.9;
+    width: 90%;
+    margin-top: 15px;
+}
+.intro1-left > button {
+    margin-top: 25px;
+    height: 15%;
+    width: 65%;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0EBFE9, #00CDCD);
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.intro1-left-header > h2, .intro3-left-header > h2 {
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0EBFE9;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.intro1-left-header > h1, .intro3-left-header > h1 {
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    
+}
+.intro1-left-header > h3, .intro3-left-header > h3 {
+    font-family: arial;
+    font-size: 25px;
+    color: rgb(94, 94, 94);
+    margin-bottom: 15px;
+}
+.intro1-left-line {
+    background: #0EBFE9	;
+    width: 100px;
+    height: 5px;
+}
+
+.intro1-right {
+    background: green;
+    height: 70%;
+    width: 30%;
+}
+
+.intro2-left {
+    height: 70%;
+    width: 30%;
+    background: purple;
+}
+
+.intro2-right{
+    height: 70%;
+    width: 30%;
+}
+.intro2-right > button {
+    margin-top: 25px;
+    height: 15%;
+    width: 65%;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #9400D3, #7F00FF	);
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.intro2-right-header > h2 {
+    font-family: arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #7F00FF;
+    margin-bottom: 10px;
+}
+.intro2-right-header > h1 {
+    font-family: arial;
+    width: 60%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.intro2-right-header > h3 {
+    font-family: arial;
+    font-size: 25px;
+    color: rgb(94, 94, 94);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.intro2-right-line {
+    background: #7F00FF	;
+    height: 5px;
+    width: 100px;
+}
+
+.intro3-left-header > h2 {
+    color: #FF6347;
+}
+
+.intro3-left-line {
+    height: 5px;
+    width: 100px;
+    background: #FF6347;
+}
+
