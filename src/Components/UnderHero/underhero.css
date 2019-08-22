@@ -1,5 +1,5 @@
 .under-hero {
-    height: 120vh;
+    height: 140vh;
     width: 150%;
     display: flex;
     align-items: center;
@@ -13,4 +13,107 @@
     position: relative;
     left: -25px;
     transform: rotate(2.5deg);
+}
+
+.uh-header {
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+    top: 120%;
+    width: 80%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uh-line {
+    width: 35%;
+    background: white;
+    height: 5px;
+    border: none;
+}
+
+.uh-header > h1 {
+    color: white;
+    font-family: arial;
+    font-size: 35px;
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.uh-info {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.uh-left {
+    /* background: white; */
+    width: 50%;
+    height: 90%;
+}
+
+.uh-right {
+    width: 50%;
+    height: 70%;
+}
+
+.uh-right-header > h2 {
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: red;
+    font-weight: 550;
+    margin-bottom: 8px;
+}
+.uh-right-header > h1 {
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    letter-spacing: 1px;
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+.uh-right-header > h3 {
+    font-size: 28px;
+    font-family: arial;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 200;
+}
+.little-line {
+    width: 100px;
+    height: 5px;
+    background: red;
+}
+
+.uh-right > p {
+    margin-top: 20px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.7;
+}
+
+.uh-right > button {
+    margin-top: 30px;
+    height: 15%;
+    width: 70%;
+    background: linear-gradient(90deg,#FF00FF, #FF69B4,#FF6347, #FF4500);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600
 }
