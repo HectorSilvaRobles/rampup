@@ -11,7 +11,9 @@ export default class UnderHero extends Component {
                     <div className='uh-line'></div>
                 </div>
                 <div className='uh-info'>
-                    <div className='uh-left'></div>
+                    <div className='uh-left'>
+                        <img src='https://www.rampupinc.com/hubfs/RampUp_Inc_August2018/images/filter-gradientSection-candidatesPage.png' />
+                    </div>
                     <div className='uh-right'>
                         <div className='uh-right-header'>
                             <h2>Ai-Powered Job Search</h2>

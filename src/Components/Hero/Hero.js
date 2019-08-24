@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './hero.css'
+import Girl from '../../Media/girl.png'
 
 export default class Hero extends Component {
     render() {
@@ -17,7 +18,7 @@ export default class Hero extends Component {
                     </div>
                 </div>
                 <div className='right-hero'>
-
+                    <img src={Girl} />
                 </div>
             </div>
         )

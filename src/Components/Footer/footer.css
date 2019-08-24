@@ -8,7 +8,7 @@
 .footer-background {
     height: 110%;
     width: 100%;
-    background: #170a45;
+    background: #1E1844;
     position: relative;
     left: -50px;
     top: 100px;
@@ -31,11 +31,40 @@
 }
 
 .middle-footer {
-    background: green;
     border-top: solid white 2px;
     border-bottom: solid white 2px;
     height: 17%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-footer > h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contact-info {
+    display: flex;
+    color: white;
+    width: 27%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info > h1 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-links {
+    background: white;
+    width: 20%;
+    height: 100%;
 }
 
 .footer-info {
@@ -73,3 +102,34 @@
     margin-bottom: 10px;
 }
 
+.lower-footer {
+    /* background: white; */
+    height: 30%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-footer > img {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.lower-footer > h3 {
+    font-family: arial;
+    font-size: 9px;
+    color:white;
+    margin-top: 50px;
+}
+
+.terms {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}

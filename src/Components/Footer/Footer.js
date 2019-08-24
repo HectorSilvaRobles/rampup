@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './footer.css'
+import Logo from '../../Media/logo2.png'
 
 export default class Footer extends Component {
     render() {
@@ -54,9 +55,24 @@ export default class Footer extends Component {
                     </div>
                     <div className='middle-footer'>
                         <h1>Connect With Us</h1>
-                        <div></div>
+                        <div className='contact-info'>
+                            <h1>hectorsilvarobles@gmail.com</h1>
+                            <h1>|</h1>
+                            <h1>(801) 721-6725</h1>
+                        </div>
+                        <div className='social-links'>
+
+                        </div>
                     </div>
-                    <div className='lower-footer'></div>
+                    <div className='lower-footer'>
+                        <img src={Logo} />
+                        <div className='terms'>
+                            <h1>Terms</h1>
+                            <h1>|</h1>
+                            <h1>Privacy Policy</h1>
+                        </div>
+                        <h3>© 2018 RampUp, INC. All Rights Reserved.</h3>
+                    </div>
                 </div>
             </div>
         )

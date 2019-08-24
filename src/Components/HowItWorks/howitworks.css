@@ -32,7 +32,7 @@
     align-items: center;
 }
 .sec-left, .sec-right {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 90%;
     width: 38%;
     display: flex;
@@ -97,5 +97,10 @@
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.sec-left > img, .sec-right > img {
+     width: 70%;
+     margin: 0 auto;
 }
 
