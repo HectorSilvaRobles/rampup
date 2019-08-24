@@ -71,15 +71,25 @@
 }
 
 .intro1-right {
-    background: green;
+    /* background: green; */
     height: 70%;
     width: 30%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .intro2-left {
     height: 70%;
     width: 30%;
-    background: purple;
+    /* background: purple; */
+}
+
+.intro2-left > img {
+    width: 730px;
+    position: absolute; 
+    top: 310%;
+    right: 53%;
 }
 
 .intro2-right{
@@ -139,5 +149,15 @@
     height: 5px;
     width: 100px;
     background: #FF6347;
+}
+
+.intro3-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro3-right > img {
+    width: 90%;
 }
 

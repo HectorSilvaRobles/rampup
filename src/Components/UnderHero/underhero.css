@@ -55,9 +55,15 @@
 }
 
 .uh-left {
-    /* background: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    height: 90%;
+    height: 30%;
+}
+
+.uh-left > img {
+    width: 70%;
 }
 
 .uh-right {
